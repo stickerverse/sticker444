@@ -1,0 +1,271 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --stickerapp-com-noto-sans-black-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-noto-sans-black-font-size: 16px;
+  --stickerapp-com-noto-sans-black-font-style: normal;
+  --stickerapp-com-noto-sans-black-font-weight: 900;
+  --stickerapp-com-noto-sans-black-letter-spacing: 0px;
+  --stickerapp-com-noto-sans-black-line-height: 24px;
+  --stickerapp-com-noto-sans-bold-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-noto-sans-bold-font-size: 16px;
+  --stickerapp-com-noto-sans-bold-font-style: normal;
+  --stickerapp-com-noto-sans-bold-font-weight: 700;
+  --stickerapp-com-noto-sans-bold-letter-spacing: 0px;
+  --stickerapp-com-noto-sans-bold-line-height: normal;
+  --stickerapp-com-noto-sans-display-extrabold-font-family: "Noto Sans",
+    Helvetica;
+  --stickerapp-com-noto-sans-display-extrabold-font-size: 18px;
+  --stickerapp-com-noto-sans-display-extrabold-font-style: normal;
+  --stickerapp-com-noto-sans-display-extrabold-font-weight: 800;
+  --stickerapp-com-noto-sans-display-extrabold-letter-spacing: 0.8999999761581421px;
+  --stickerapp-com-noto-sans-display-extrabold-line-height: 28px;
+  --stickerapp-com-noto-sans-display-regular-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-noto-sans-display-regular-font-size: 20px;
+  --stickerapp-com-noto-sans-display-regular-font-style: normal;
+  --stickerapp-com-noto-sans-display-regular-font-weight: 400;
+  --stickerapp-com-noto-sans-display-regular-letter-spacing: 0px;
+  --stickerapp-com-noto-sans-display-regular-line-height: 28px;
+  --stickerapp-com-semantic-button-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-button-font-size: 16px;
+  --stickerapp-com-semantic-button-font-style: normal;
+  --stickerapp-com-semantic-button-font-weight: 800;
+  --stickerapp-com-semantic-button-letter-spacing: 0px;
+  --stickerapp-com-semantic-button-line-height: 24px;
+  --stickerapp-com-semantic-heading-1-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-heading-1-font-size: 56px;
+  --stickerapp-com-semantic-heading-1-font-style: normal;
+  --stickerapp-com-semantic-heading-1-font-weight: 900;
+  --stickerapp-com-semantic-heading-1-letter-spacing: 0px;
+  --stickerapp-com-semantic-heading-1-line-height: 56px;
+  --stickerapp-com-semantic-heading-2-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-heading-2-font-size: 32px;
+  --stickerapp-com-semantic-heading-2-font-style: normal;
+  --stickerapp-com-semantic-heading-2-font-weight: 900;
+  --stickerapp-com-semantic-heading-2-letter-spacing: 0px;
+  --stickerapp-com-semantic-heading-2-line-height: 38px;
+  --stickerapp-com-semantic-heading-3-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-heading-3-font-size: 20px;
+  --stickerapp-com-semantic-heading-3-font-style: normal;
+  --stickerapp-com-semantic-heading-3-font-weight: 900;
+  --stickerapp-com-semantic-heading-3-letter-spacing: 0px;
+  --stickerapp-com-semantic-heading-3-line-height: 28px;
+  --stickerapp-com-semantic-heading-4-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-heading-4-font-size: 16px;
+  --stickerapp-com-semantic-heading-4-font-style: normal;
+  --stickerapp-com-semantic-heading-4-font-weight: 600;
+  --stickerapp-com-semantic-heading-4-letter-spacing: 0px;
+  --stickerapp-com-semantic-heading-4-line-height: 24px;
+  --stickerapp-com-semantic-input-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-input-font-size: 12px;
+  --stickerapp-com-semantic-input-font-style: normal;
+  --stickerapp-com-semantic-input-font-weight: 400;
+  --stickerapp-com-semantic-input-letter-spacing: 0px;
+  --stickerapp-com-semantic-input-line-height: normal;
+  --stickerapp-com-semantic-item-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-item-font-size: 16px;
+  --stickerapp-com-semantic-item-font-style: normal;
+  --stickerapp-com-semantic-item-font-weight: 400;
+  --stickerapp-com-semantic-item-letter-spacing: 0px;
+  --stickerapp-com-semantic-item-line-height: 24px;
+  --stickerapp-com-semantic-label-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-label-font-size: 16px;
+  --stickerapp-com-semantic-label-font-style: normal;
+  --stickerapp-com-semantic-label-font-weight: 800;
+  --stickerapp-com-semantic-label-letter-spacing: 0px;
+  --stickerapp-com-semantic-label-line-height: 24px;
+  --stickerapp-com-semantic-link-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-link-font-size: 16px;
+  --stickerapp-com-semantic-link-font-style: normal;
+  --stickerapp-com-semantic-link-font-weight: 400;
+  --stickerapp-com-semantic-link-letter-spacing: 0px;
+  --stickerapp-com-semantic-link-line-height: 32px;
+  --stickerapp-com-semantic-options-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-options-font-size: 16px;
+  --stickerapp-com-semantic-options-font-style: normal;
+  --stickerapp-com-semantic-options-font-weight: 400;
+  --stickerapp-com-semantic-options-letter-spacing: 0px;
+  --stickerapp-com-semantic-options-line-height: 24px;
+  --stickerapp-com-semantic-strong-font-family: "Noto Sans", Helvetica;
+  --stickerapp-com-semantic-strong-font-size: 16px;
+  --stickerapp-com-semantic-strong-font-style: normal;
+  --stickerapp-com-semantic-strong-font-weight: 700;
+  --stickerapp-com-semantic-strong-letter-spacing: 0px;
+  --stickerapp-com-semantic-strong-line-height: 16px;
+  --www-stickerjunkie-com-inter-bold-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-inter-bold-font-size: 24px;
+  --www-stickerjunkie-com-inter-bold-font-style: normal;
+  --www-stickerjunkie-com-inter-bold-font-weight: 700;
+  --www-stickerjunkie-com-inter-bold-letter-spacing: 0px;
+  --www-stickerjunkie-com-inter-bold-line-height: 38.400001525878906px;
+  --www-stickerjunkie-com-inter-regular-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-inter-regular-font-size: 14px;
+  --www-stickerjunkie-com-inter-regular-font-style: normal;
+  --www-stickerjunkie-com-inter-regular-font-weight: 400;
+  --www-stickerjunkie-com-inter-regular-letter-spacing: 0px;
+  --www-stickerjunkie-com-inter-regular-line-height: 19.600000381469727px;
+  --www-stickerjunkie-com-inter-regular-underline-font-family: "Inter",
+    Helvetica;
+  --www-stickerjunkie-com-inter-regular-underline-font-size: 14px;
+  --www-stickerjunkie-com-inter-regular-underline-font-style: normal;
+  --www-stickerjunkie-com-inter-regular-underline-font-weight: 400;
+  --www-stickerjunkie-com-inter-regular-underline-letter-spacing: 0px;
+  --www-stickerjunkie-com-inter-regular-underline-line-height: 22.399999618530273px;
+  --www-stickerjunkie-com-inter-semi-bold-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-inter-semi-bold-font-size: 14px;
+  --www-stickerjunkie-com-inter-semi-bold-font-style: normal;
+  --www-stickerjunkie-com-inter-semi-bold-font-weight: 600;
+  --www-stickerjunkie-com-inter-semi-bold-letter-spacing: 0px;
+  --www-stickerjunkie-com-inter-semi-bold-line-height: 14px;
+  --www-stickerjunkie-com-semantic-button-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-semantic-button-font-size: 16px;
+  --www-stickerjunkie-com-semantic-button-font-style: normal;
+  --www-stickerjunkie-com-semantic-button-font-weight: 500;
+  --www-stickerjunkie-com-semantic-button-letter-spacing: 0.15000000596046448px;
+  --www-stickerjunkie-com-semantic-button-line-height: 18px;
+  --www-stickerjunkie-com-semantic-emphasis-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-semantic-emphasis-font-size: 14px;
+  --www-stickerjunkie-com-semantic-emphasis-font-style: italic;
+  --www-stickerjunkie-com-semantic-emphasis-font-weight: 400;
+  --www-stickerjunkie-com-semantic-emphasis-letter-spacing: 0px;
+  --www-stickerjunkie-com-semantic-emphasis-line-height: 22.399999618530273px;
+  --www-stickerjunkie-com-semantic-heading-1-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-semantic-heading-1-font-size: 24px;
+  --www-stickerjunkie-com-semantic-heading-1-font-style: normal;
+  --www-stickerjunkie-com-semantic-heading-1-font-weight: 700;
+  --www-stickerjunkie-com-semantic-heading-1-letter-spacing: 0px;
+  --www-stickerjunkie-com-semantic-heading-1-line-height: 28.799999237060547px;
+  --www-stickerjunkie-com-semantic-heading-2-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-semantic-heading-2-font-size: 22px;
+  --www-stickerjunkie-com-semantic-heading-2-font-style: normal;
+  --www-stickerjunkie-com-semantic-heading-2-font-weight: 700;
+  --www-stickerjunkie-com-semantic-heading-2-letter-spacing: 0px;
+  --www-stickerjunkie-com-semantic-heading-2-line-height: 26.399999618530273px;
+  --www-stickerjunkie-com-semantic-heading-3-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-semantic-heading-3-font-size: 16px;
+  --www-stickerjunkie-com-semantic-heading-3-font-style: normal;
+  --www-stickerjunkie-com-semantic-heading-3-font-weight: 700;
+  --www-stickerjunkie-com-semantic-heading-3-letter-spacing: 0px;
+  --www-stickerjunkie-com-semantic-heading-3-line-height: 19.200000762939453px;
+  --www-stickerjunkie-com-semantic-input-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-semantic-input-font-size: 16px;
+  --www-stickerjunkie-com-semantic-input-font-style: normal;
+  --www-stickerjunkie-com-semantic-input-font-weight: 400;
+  --www-stickerjunkie-com-semantic-input-letter-spacing: 0px;
+  --www-stickerjunkie-com-semantic-input-line-height: normal;
+  --www-stickerjunkie-com-semantic-label-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-semantic-label-font-size: 16px;
+  --www-stickerjunkie-com-semantic-label-font-style: normal;
+  --www-stickerjunkie-com-semantic-label-font-weight: 400;
+  --www-stickerjunkie-com-semantic-label-letter-spacing: 0px;
+  --www-stickerjunkie-com-semantic-label-line-height: 25.600000381469727px;
+  --www-stickerjunkie-com-semantic-link-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-semantic-link-font-size: 15.600000381469727px;
+  --www-stickerjunkie-com-semantic-link-font-style: normal;
+  --www-stickerjunkie-com-semantic-link-font-weight: 700;
+  --www-stickerjunkie-com-semantic-link-letter-spacing: 0px;
+  --www-stickerjunkie-com-semantic-link-line-height: 18.719999313354492px;
+  --www-stickerjunkie-com-semantic-strong-font-family: "Inter", Helvetica;
+  --www-stickerjunkie-com-semantic-strong-font-size: 13px;
+  --www-stickerjunkie-com-semantic-strong-font-style: normal;
+  --www-stickerjunkie-com-semantic-strong-font-weight: 700;
+  --www-stickerjunkie-com-semantic-strong-letter-spacing: 0px;
+  --www-stickerjunkie-com-semantic-strong-line-height: 16.899999618530273px;
+  --www-stickerjunkie-com-semantic-strong-underline-font-family: "Inter",
+    Helvetica;
+  --www-stickerjunkie-com-semantic-strong-underline-font-size: 14px;
+  --www-stickerjunkie-com-semantic-strong-underline-font-style: normal;
+  --www-stickerjunkie-com-semantic-strong-underline-font-weight: 700;
+  --www-stickerjunkie-com-semantic-strong-underline-letter-spacing: 0px;
+  --www-stickerjunkie-com-semantic-strong-underline-line-height: 22.399999618530273px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: transparent;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: transparent;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
